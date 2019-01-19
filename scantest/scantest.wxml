@@ -1,0 +1,2 @@
+<!--scantest/scantest.wxml-->
+<button bindtap='scantest'>扫码测试</button>

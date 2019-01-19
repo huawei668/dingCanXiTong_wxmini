@@ -1,0 +1,9 @@
+<!--meals/meals.wxml-->
+
+<!-- url: "/meals/meals?ip=192.168.0.101&port=8080&oaUserId=666&oaOrgId=org222&userName=un333"  -->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+	<web-view src="https://b.shitangdingcan.com/meals_mobile/#/wxMiniLoading?judpeApp=wxMini&openId={{openId}}&unionId={{unionId}}&compId={{compId}}&loginName={{loginName}}"></web-view>
+    	<!-- <web-view src="http://192.168.0.100:8080/#/wxMiniLoading?judpeApp=wxMini&openId={{openId}}&unionId={{unionId}}&compId={{compId}}&loginName={{loginName}}"></web-view> -->
+  </view>
+</view>

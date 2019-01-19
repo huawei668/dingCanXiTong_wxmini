@@ -1,0 +1,15 @@
+<!--login/login.wxml-->
+<view>
+  <image src='../image/login-top.png'></image>
+  <view class='input-content'><input placeholder='单位账号' bindinput='setcompanyAccount'></input></view>
+  <view class='input-content'><input placeholder='个人账号' bindinput='setloginName'></input></view>
+  <view class='input-content'><input placeholder='个人密码' bindinput='setloginPwd'></input></view>
+  <button bindtap='ifNull'>立即登录</button>
+  <!-- <button bindtap='test'>test</button> -->
+  <!-- <button bindtap='login_auth'>获取code</button> -->
+  <navigator url='/meals/tryOut/tryOut' hover-class='navigator-hover' open-type='redirect' class='text1'>我要体验</navigator>
+  <!-- <navigator url='/loading/loading' hover-class='navigator-hover' open-type='redirect' class='text1'>临时跳转</navigator> -->
+  <text class='text2' bindtap='call'>客户热线：020-36523365</text>
+</view>
+
+ 

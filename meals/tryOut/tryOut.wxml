@@ -1,0 +1,6 @@
+<!--meals/tryOut/tryOut.wxml-->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="https://b.shitangdingcan.com/meals_mobile/#/tryOut"></web-view>
+  </view>
+</view>

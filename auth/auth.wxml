@@ -1,0 +1,6 @@
+<!--auth/auth.wxml-->
+<view>
+<image src='../image/login-top.png'></image>
+<text>为了方便您的使用，食堂订餐助手需要获取您的头像，昵称等信息</text>
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">确认授权</button>
+</view>

@@ -1,0 +1,7 @@
+<!--atest/atest.wxml-->
+<!-- 本地测试 -->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src=" http://192.168.0.105:8080/#/kecan1"></web-view>
+  </view>
+</view>

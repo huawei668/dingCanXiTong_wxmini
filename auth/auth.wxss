@@ -1,0 +1,25 @@
+/* auth/auth.wxss */
+view{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+image{
+  width: 168px;
+  height: 106px;
+}
+text{
+	margin: 5% 0;
+	width: 80%;
+	color: #666;
+}
+button{
+  margin-top: 20px;
+  width: 80%;
+  height: 44px;
+  background: rgba(255, 153, 153, 1);
+    border-radius: 3px;
+    color: #fff;
+}

@@ -1,0 +1,7 @@
+<!--login/error/error.wxml-->
+<view>
+  <image src='../image/error.png'></image>
+  <text>{{message}}</text>
+  <navigator open-type='navigateBack' delta='1' hover-class="navigator-hover">返回</navigator>
+</view>
+

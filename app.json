@@ -1,0 +1,18 @@
+{
+	"pages": [
+		"login/login",
+		"loading/loading",
+		"auth/auth",
+		"error/error",
+		"scantest/scantest",
+		"meals/meals",
+		"atest/atest",
+		"meals/tryOut/tryOut"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ff9999",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "white"
+	}
+}
